@@ -1,0 +1,31 @@
+.header-title {
+  border: solid antiquewhite;
+  border-radius: 2em;
+  padding: 2em;
+}
+
+.museo {
+  padding: .5em 0em;
+  font-family: "MuseoModerno", serif;
+  font-size: 2em;
+  font-weight: 400;
+  color: antiquewhite;
+}
+
+.grenze {
+  padding: .5em 0em;
+  font-family: "Grenze", serif;
+  font-size: 2em;
+  color: antiquewhite;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chivo {
+  padding: .5em 0em;
+  font-family: "Chivo", serif;
+  font-size: 2em;
+  color: antiquewhite;
+  font-weight: 400;
+  font-style: normal;
+}
