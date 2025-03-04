@@ -1,0 +1,46 @@
+.navbar-wrapper {
+  background-color: #282c34;
+}
+
+.navbar-menu {
+  display: flex;
+  padding: 1.5em 0em;
+  margin-bottom: 2em;
+}
+
+.navbar-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url('../public/icons/settings-antique-white.png'); /* Make sure this image is white or transparent */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 1.5em;
+  animation: rotateGear 12s linear infinite; /* Slow rotation */
+}
+
+@keyframes rotateGear {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-item {
+  font-family: 'Chivo', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: .2em;
+  word-spacing: .1em;
+  padding-top: .4em;
+  margin-left: 2.5em;
+  color: antiquewhite;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: inherit;
+}

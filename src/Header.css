@@ -1,7 +1,46 @@
-.header-title {
-  border: solid antiquewhite;
-  border-radius: 2em;
+.header-wrapper {
+  flex-direction: column;
+  background-color: #282c34;
+  border-radius: 6px 6px 0 0;
+  margin: 2em .4em;
+  padding: 4em 2em 20em 2em;
+}
+
+/* Manila folder outline container */
+.header-card {
+  position: relative;
+  background-color: antiquewhite; /* Base color */
+  border-radius: 5px 5px 1px 1px;
   padding: 2em;
+}
+
+/* The tab effect using ::before */
+.header-card::before {
+  content: "";
+  position: absolute;
+  top: -30px; /* Move it slightly up */
+  left: 40px; /* Adjust tab positioning */
+  width: 275px; /* Tab width */
+  height: 30px; /* Tab height */
+  background-color: antiquewhite; /* Same as card */
+  border-bottom: none; /* Remove bottom border to connect it */
+  border-radius: 6px 6px 0 0; /* Rounded top corners */
+}
+
+.header-sandbox {
+  background-color: antiquewhite;
+  border-radius: .2em;
+  padding: 2em;
+  margin-bottom: 2em;
+}
+
+.header-title {
+  font-family: "Chivo", serif;
+  color: #B8860B;
+  font-weight: 500;
+  word-spacing: .2em;
+  font-size: 3em;
+  margin-bottom: 1em;
 }
 
 .museo {
@@ -9,14 +48,15 @@
   font-family: "MuseoModerno", serif;
   font-size: 2em;
   font-weight: 400;
-  color: antiquewhite;
+
+  color: #B8860B;
 }
 
 .grenze {
   padding: .5em 0em;
   font-family: "Grenze", serif;
   font-size: 2em;
-  color: antiquewhite;
+  color: #282c34;
   font-weight: 400;
   font-style: normal;
 }
@@ -25,7 +65,7 @@
   padding: .5em 0em;
   font-family: "Chivo", serif;
   font-size: 2em;
-  color: antiquewhite;
+  color: #282c34;
   font-weight: 400;
   font-style: normal;
 }
