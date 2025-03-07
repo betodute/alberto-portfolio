@@ -3,19 +3,21 @@
 }
 
 .figure {
-  background-color: #282c34;
-  margin-bottom: 2em;
   min-height: 20px;
   min-width: 100%;
 }
 
-.mid {
+.first {
+  background-color: #fdfef9;
+}
+
+.second {
   background-color: #B8860B;
-  margin-bottom: 1em;
   min-height: 40px;
 }
 
-.last {
+.third {
+  background-color: #282c34;
   min-height: 30px;
 }
 

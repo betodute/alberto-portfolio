@@ -9,9 +9,13 @@
 /* Manila folder outline container */
 .header-card {
   position: relative;
-  background-color: antiquewhite; /* Base color */
+  background-color: #fdfef9; /* Base color */
   border-radius: 5px 5px 1px 1px;
   padding: 2em;
+}
+
+.card-after {
+  margin-top: 4em;
 }
 
 /* The tab effect using ::before */
@@ -22,13 +26,13 @@
   left: 40px; /* Adjust tab positioning */
   width: 275px; /* Tab width */
   height: 30px; /* Tab height */
-  background-color: antiquewhite; /* Same as card */
+  background-color: #fdfef9; /* Same as card */
   border-bottom: none; /* Remove bottom border to connect it */
   border-radius: 6px 6px 0 0; /* Rounded top corners */
 }
 
 .header-sandbox {
-  background-color: antiquewhite;
+  background-color: #fdfef9;
   border-radius: .2em;
   padding: 2em;
   margin-bottom: 2em;
