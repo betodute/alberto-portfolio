@@ -1,11 +1,15 @@
 .navbar-wrapper {
   background-color: #282c34;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
 }
 
 .navbar-menu {
   display: flex;
   padding: 1.5em 0em;
-  margin-bottom: 2em;
 }
 
 .navbar-icon {
